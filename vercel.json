@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "birthday-boy",
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
+    }
+  ]
+}
