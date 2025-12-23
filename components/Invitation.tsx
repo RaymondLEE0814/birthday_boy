@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { MapPin, Phone, Calendar, Copy, Check } from 'lucide-react';
 import Bunting from './Bunting';
+import PhotoFrame from './PhotoFrame';
 import { EVENT_DETAILS } from '../constants';
 
 const Invitation: React.FC = () => {
@@ -75,6 +76,7 @@ const Invitation: React.FC = () => {
           <div><ColorfulText text="BIRTHDAY" /></div>
         </div>
 
+        <PhotoFrame />
         {/* Subtitle / Greeting Title */}
         <h2 className="font-hand text-2xl text-gray-700 mt-6 mb-8 font-bold">
           {EVENT_DETAILS.greetingTitle}
