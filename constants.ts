@@ -1,6 +1,6 @@
 export const EVENT_DETAILS = {
   childName: '희찬',
-  date: '2026. 01. 03',
+  date: '2026. 01. 17',
   day: '토요일',
   time: '오후 2시',
   location: '서울 영등포구 신길동 454-4 한양아파트 402호',
