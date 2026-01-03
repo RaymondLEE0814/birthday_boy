@@ -15,5 +15,5 @@ export const EVENT_DETAILS = {
 희찬이의 생일을 함께 축하해 주시고,
 맛있는 음식도 즐겨주세요! 🥳`,
   closing: '우리 희찬이와 함께 기다리고 있겠습니다! ❤️',
-  imageUrl: './birthday_boy.jpg', 
+  imageUrl: './birthday_boy.JPG', 
 };
